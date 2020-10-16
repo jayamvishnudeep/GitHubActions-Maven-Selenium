@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" thread-count="5" parallel="classes"
+          name="/Users/vishnudeep.jayam/Projects/Learning/Github Actions">
+        <classes>
+            <class name="tests.FacebookLoginPage"/>
+            <class name="tests.GoogleSearch"/>
+        </classes>
+    </test>
+</suite>

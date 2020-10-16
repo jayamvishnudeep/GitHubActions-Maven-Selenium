@@ -1,0 +1,14 @@
+# Compiled class file
+*.class
+
+# Maven
+target/
+
+# IntelliJ project files
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# TestNG
+test-output
