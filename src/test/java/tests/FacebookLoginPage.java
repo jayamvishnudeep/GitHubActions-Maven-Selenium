@@ -25,7 +25,6 @@ public class FacebookLoginPage {
     public void fbLoginPage() {
 
         driver.get("https://fb.com/");
-        Assert.assertTrue(driver.getTitle().contains("Facebook – log in or sign up"));
     }
 
 
